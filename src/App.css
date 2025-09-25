@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+  width: 100%;
+  gap: 2rem;
+}
+nav div ul {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  color: #0b3c4a;
+  font-size: 1.2rem;
+}
+
+.LogoContainer img {
+  height: 60px;
+}
+header {
+  width: 100%;
+}
