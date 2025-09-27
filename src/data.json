@@ -1,0 +1,5 @@
+{
+    "products":[
+        {"name":"AeroForce 1 Sneakers","img":"shoe1.webp","price":23,"id":1},{"name":"Atlas X Sneakers","img":"shoe2.webp","price":34,"id":2},{"name":"Zenon Core Sneakers","img":"shoe3.webp","price":15,"id":3},{"name":"Helix 90 Sneakers","img":"shoe4.webp","price":83,"id":4},{"name":"Stride LX Sneakers","img":"shoe5.webp","price":53,"id":5},{"name":"Vortex Pro Sneakers","img":"shoe6.webp","price":45,"id":6}
+    ]
+}
