@@ -53,8 +53,8 @@ function App() {
     <>
       <Header />
       <div className="main">
-        <Products addProd={handleProduct} />
         <Cart cart={cart} decrease={handleReduceProd} addProd={handleProduct} />
+        <Products addProd={handleProduct} />
       </div>
     </>
   );

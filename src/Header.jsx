@@ -20,7 +20,7 @@ function Header() {
             </div>
             <div>
               <div className="ham" onClick={() => setMenuOpen((val) => !val)}>
-                <FontAwesomeIcon icon={faBars} size="4x" />
+                <FontAwesomeIcon icon={faBars} />
               </div>
               <ul className={`items ${isMenuOpen ? "show" : ""}`}>
                 <li>Home</li>
