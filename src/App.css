@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 nav {
   display: flex;
   width: 100%;
@@ -75,6 +76,7 @@ header {
 .main {
   display: flex;
   margin: 2rem;
+
 }
 .cart {
   width: 50%;
@@ -134,7 +136,7 @@ header {
 }
 @media screen and (max-width: 650px) {
   .prodItem {
-    width: 80%;
+    width: 70%;
   }
   .cart {
     width: 95%;
@@ -165,11 +167,29 @@ header {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     border-top: 2px solid #2fb0b8;
     position: relative;
-    z-index: 10;
+    z-index: 11;
   }
   .qty {
     padding: 0;
     border-radius: 1px;
     margin: 0.2rem;
   }
+  @media screen and (max-width: 450px) {
+    .cart img{
+     width:140px;
+     height:140px;
+    }
+  .prodItem button {
+    font-size:0.8rem;
+  }
+  .prodItem{
+    font-size:1rem;
+  }
+.products{
+  margin-bottom:1rem;
 }
+body,html{
+  padding-bottom:8rem;
+}
+}
+
