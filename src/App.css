@@ -76,7 +76,6 @@ header {
 .main {
   display: flex;
   margin: 2rem;
-
 }
 .cart {
   width: 50%;
@@ -139,8 +138,12 @@ header {
     width: 70%;
   }
   .cart {
-    width: 95%;
+    width: 100%;
     margin: 1rem;
+  }
+  .row {
+    gap: 1.2rem;
+    font-size: 0.8rem;
   }
 
   .LogoContainer {
@@ -174,22 +177,31 @@ header {
     border-radius: 1px;
     margin: 0.2rem;
   }
-  @media screen and (max-width: 450px) {
-    .cart img{
-     width:140px;
-     height:140px;
-    }
+  body,
+  html {
+    padding-bottom: 4rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .emptycart img {
+    width: 140px;
+    height: 140px;
+  }
   .prodItem button {
-    font-size:0.8rem;
+    font-size: 0.8rem;
   }
-  .prodItem{
-    font-size:1rem;
+  .prodItem {
+    font-size: 1rem;
   }
-.products{
-  margin-bottom:1rem;
-}
-body,html{
-  padding-bottom:8rem;
-}
-}
 
+  .products {
+    margin-bottom: 1rem;
+  }
+  body,
+  html {
+    padding-bottom: 6rem;
+  }
+  .main {
+    flex-direction: column-reverse;
+  }
+}
