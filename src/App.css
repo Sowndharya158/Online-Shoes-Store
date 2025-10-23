@@ -25,15 +25,13 @@ nav div ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
-  margin: 0 1rem;
+  margin: 1rem;
 }
 .LogoContainer img {
   height: 60px;
 }
 header {
   width: 100%;
-  margin: 1rem;
 }
 .products {
   margin: 1rem;
